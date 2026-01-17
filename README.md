@@ -1,73 +1,117 @@
-# Welcome to your Lovable project
+🛡️ Code Guardian AI
 
-## Project info
+Code Guardian AI is a developer-focused security and quality analysis platform designed to help identify potential vulnerabilities, bad practices, and maintainability issues in source code. It acts as an intelligent assistant for developers by analyzing codebases and highlighting risks early in the development lifecycle.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project focuses on improving code safety, consistency, and reliability using modern web technologies and automated analysis workflows.
 
-## How can I edit this code?
+🚀 Features
 
-There are several ways of editing your application.
+🔍 Static analysis of source code
 
-**Use Lovable**
+🧠 AI-assisted detection of insecure or risky code patterns
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+📁 Project-wide scanning (not just single files)
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Clear feedback for developers on potential issues
 
-**Use your preferred IDE**
+🎯 Designed for scalability and future AI model integration
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🌐 Clean, modern frontend interface
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🏗️ Tech Stack
+Frontend
 
-Follow these steps:
+Vite
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+JavaScript / TypeScript
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+HTML5
 
-# Step 3: Install the necessary dependencies.
-npm i
+Tailwind CSS
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Backend / Services
 
-**Edit a file directly in GitHub**
+Supabase (for authentication / backend services)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Node.js ecosystem
 
-**Use GitHub Codespaces**
+Tooling
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ESLint
 
-## What technologies are used for this project?
+PostCSS
 
-This project is built with:
+Git & GitHub
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📂 Project Structure
+code-guardian-ai/
+│
+├── public/              # Static assets
+├── src/                 # Application source code
+│   ├── components/      # UI components
+│   ├── pages/           # Application pages
+│   └── utils/           # Helper utilities
+│
+├── supabase/             # Supabase configuration
+├── .env                  # Environment variables
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+└── README.md
 
-## How can I deploy this project?
+⚙️ Installation & Setup
+Prerequisites
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Node.js (v18+ recommended)
 
-## Can I connect a custom domain to my Lovable project?
+npm or bun
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🔐 Environment Variables
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+📌 Current Status
+
+✅ Frontend structure implemented
+
+✅ Tooling and configuration completed
+
+🚧 AI analysis logic under active development
+
+🚧 Advanced security rule engine planned
+
+
+🎯 Future Enhancements
+
+AI-based vulnerability classification
+
+Severity scoring for detected issues
+
+Language support expansion
+
+GitHub repository integration
+
+Exportable security reports
+
+
+🤝 Contribution
+
+This is currently a solo project, but contributions, suggestions, and issue reports are welcome.
+
+Fork the repository
+
+Create a new branch
+
+Make changes
+
+Submit a pull request
+
+📄 License
+
+This project is licensed under the MIT License.
+
+👤 Author-
+Rachit Yadav
+B.E. Computer Science & Engineering
+Chandigarh University
